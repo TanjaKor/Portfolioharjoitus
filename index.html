@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="fi">
+	<head>
+		<title>Tanja Korolainen</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Bootstrapin tyylit-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
+    <!--Sliderin tyylit-->
+		<link	rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"/>
+    <!--googlefontit-->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link	href="https://fonts.googleapis.com/css2?family=Raleway&family=Rock+Salt&display=swap&effect=shadow-multiple"
+			rel="stylesheet"/>
+    <!--oma tyylitiedosto-->  
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+  <!--Header-->
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<div id="alku" class="jumbotron text-center custom-jumbotron" style="margin-bottom: 0">
+			<h1 class="custom-brand font-effect-shadow-multiple">Tanja Korolainen</h1>
+			<p>Tuleva ohjelmistosuunnittelija</p>
+		</div>
+    <!--navi-->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+			<a class="navbar-brand custom-brand" href="#alku">TK</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse"	data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolio">Harjoitustyöt</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle"	id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Harrastukset
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#valokuvaus">Valokuvaus</a>
+							<a class="dropdown-item" href="#koira">Koiraharrastukset</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#yhteystiedot">Yhteystiedot</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+    <!--esittely-->
+		<div id="about" class="container" style="margin-top: 30px">
+			<div class="row">
+				<div class="col-sm-4">
+					<h2 class="custom-brand">Hei, olen Tanja!</h2>
+					<br>
+					<div class="faceimg">
+						<img src="images/kasvokuva.jpg" alt="Tanjan kasvokuva" style="width: 100%"/>
+					</div>
+					<p>&copy; Ulla Keituri</p>
+				</div>
+				<div class="col-sm-8">
+					<h2>Siis kuka? <i class="bi bi-person-square"></i></h2>
+					<p>
+						Olen 35-vuotias Tanja, kotoisin Pohjois-Savosta. Nykyään asun
+						Jyväskylän maaseudulla. Opiskelen Haaga-Helian Avoimessa
+						Ammattikorkeakoulussa AMKoodari-opintoja.
+					</p>
+					<p>
+						Ensimmäiseltä koulutukseltani olen Fysioterapeutti(AMK), mutta
+						viimeiset kymmenen vuotta olen tehnyt myynnin ja asiakaspalvelun
+						töitä etsien omaa alaani. Onnekseni olen saanut hyödyntää
+						koulutukseni tuomaa osaamista myös näillä aloilla työskennellessäni.
+						Löydät lisää tietoa työkokemuksestani ja koulutuksestani täältä.
+					</p>
+					<br />
+					<h2>Mitä teen? <i class="bi bi-briefcase-fill"></i></h2>
+					<p>
+						Olen aktiivinen, tunnollinen ja ratkaisukeskeinen työntekijä,
+						motivoidun mahdollisuuksista osoittaa kyvykkyyteni ja kehittää omia
+						taitojani. Monipuolinen ja pitkä työkokemukseni myynti- ja
+						asiakaspalvelualalta on tuonut minulle kyvyn nähdä asioita
+						kokonaisuuksina ja rohkeutta kohdata myös haastavat tilanteet. Olen
+						myös oppinut läheltä käytettävyyden merkityksen tuotteen tai
+						palvelun onnistumisen kannalta. En pelkää vastuuta ja olenkin ollut
+						mm. entisen taloyhtiöni hallituksen jäsenenä, työnantajani
+						hyvinvointilautakunnan jäsenenä sekä toiminut yhdistysaktiivina.
+					</p>
+					<br>
+					<h2>Taitoni</h2>
+					<div class="progress" style="height: 20px;">
+						<div class="progress-bar bg-dark" role="progressbar" style="width: 55%" 
+						aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+							Html & Css 55 %
+						</div>
+					</div>
+					<br>
+					<div class="progress" style="height: 20px;">
+						<div class="progress-bar bg-dark" role="progressbar" style="width: 30%" 
+						aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+							React 30 %
+						</div>
+					</div>
+					<br>
+					<div class="progress" style="height: 20px;">
+						<div class="progress-bar bg-dark" role="progressbar" style="width: 60%" 
+						aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+							Json 60 %
+						</div>
+					</div>
+					<br>
+					<div class="progress" style="height: 20px;">
+						<div class="progress-bar bg-dark" role="progressbar" style="width: 40%" 
+						aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+							Bootstrap 40 %
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+      <!--Harjoitustyöt-->
+		<div id="portfolio">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="card">
+						<h2 class="card-header">Orientaatio Digipalveluihin</h2>
+						<img class="card-img-top" src="images/Kuva1.png" alt="kuvakaappaus nettisivusta"/>
+						<div class="card-body">
+							<h5 class="card-title">Koiraharrastus-yhdistyksen kotisivut</h5>
+							<p class="card-text">
+								Orientaatio digipalveluihin kurssilla tein kotisuvt
+								mielikuvitukselliselle koirayhdistykselle.
+							</p>
+							<p>
+								<button class="btn btn-outline-dark"	type="button"	data-toggle="collapse" data-target="#digipalvelut"
+									aria-expanded="false"	aria-controls="digipalvelut">
+								  	Lue lisää projektista
+								</button>
+							</p>
+							<div class="collapse" id="digipalvelut">
+								<div class="card card-body">
+									Nämä sivut olivat elämäni ensimmäiset nettisivut.
+									Responsiivisuuden toteuttamisessa käytin flexbox-tekniikkaa,
+									joka olikin erittäin näppärä tähän tarkoitukseen. Tein
+									alunperin aikamoisen virhearvion työn määrässä ja lopulta
+									sivustosta tuli hiukan liian laaja ja minulla teki tiukkaa
+									pysyä annetussa aikataulussa. Viimeisenä iltana ennen tehtävän
+									palautusta sain kuitenkin viimeisetkin jutut tehtyä ja
+									palautettua sivuston testiraportteineen ajoissa. Tämän
+									sivuston tekemisessä opin paljon kuvien koon merkityksestä ja
+									HTML ja CSS perusteita. Sekä sen, että tiukan aikataulun
+									projekteissa ei kannata ahnehtia.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="card">
+						<h2 class="card-header">Front-end ohjelmointi</h2>
+						<img class="card-img-top"	src="images/Kuva2.png" alt="kuvakaappaus nettisivusta"/>
+						<div class="card-body">
+							<h5 class="card-title">Personal trainerin kotisivut</h5>
+							<p class="card-text">
+								Front-end ohjelmointi kurssin lopputyönä piti tehdä frontti
+								personal trainer back-endille. Kurssi oli minulle aika haastava,
+								sillä kurssin alkaessa minulla ei ollut mitään pohjatietoa
+								web-ohjelmoinnista.
+							</p>
+							<p>
+								<button	class="btn btn-outline-dark"	type="button"	data-toggle="collapse" data-target="#frontend"
+									aria-expanded="false"	aria-controls="frontend">
+									  Lue lisää projektista
+								</button>
+							</p>
+							<div class="collapse" id="frontend">
+								<div class="card card-body">
+									Kurssin alussa minusta tuntui, että minut työnnettin suoraan
+									altaan syvään päähän ilman uimataitoa, sillä minulla ei
+									kurssin alkaessa ollut mitään pohjatietoa web-ohjelmoinnista.
+									Kurssin edetessä orientaatio-kurssit etenivät ja
+									pääsin pikkuhiljaa paremmin ja paremmin opetukseen
+									mukaan myös luentojen aikana. Lopputyön tein kurssin aikana
+									käytetyillä kirjastoilla, eli Material UI:lla sekä AG
+									Gridillä. Onneksi kurssilla oli kattavat materiaalit ja videot
+									sekä perusteita käydessämme joka viikon luennot tallennettiin.
+									Näiden avulla sain lopputehtävän 2 vaiheeseen
+									saakka tehtyä hyvissä ajoin. Ajanpuutteen vuoksi en
+									palauttanut Task 3 osaa ollenkaan. Olen kuitenkin tyytyväinen
+									kurssin suoritukseeni.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="card">
+						<h2 class="card-header">Digitekniikat</h2>
+						<img class="card-img-top" src="images/Kuva3.png" alt="kuvakaappaus nettisivusta"/>
+						<div class="card-body">
+							<h5 class="card-title">Matkailu-yrityksen kotisivut</h5>
+							<p class="card-text">
+								Digitekniikat kurssilla on tehty useampia pieniä
+								nettisivuprojekteja. Tässä tehtävssä harjoiteltiin useampia
+								erilaisia tekniikoita JSonista ja jQueryyn liittyen.
+							</p>
+							<p>
+								<button class="btn btn-outline-dark"	type="button" data-toggle="collapse" data-target="#digitekniikat"
+									aria-expanded="false"	aria-controls="digitekniikat">
+									  Lue lisää projektista
+								</button>
+							</p>
+							<div class="collapse" id="digitekniikat">
+								<div class="card card-body">
+									Tämän tehtävän kanssa minulla oli haasteita saada tietoja
+									haettua, sillä oma koneeni herjasi jokaisella selaimella
+									CORSia. Sain kuitenkin koodin näkyviin, kun julkaisin sivut
+									koulun myy-palvelimella. Nämä tehtävät olivat haastavimpia
+									kurssin aikana, mutta näissäkin auttoi todella paljon
+									front-end kurssin aikana saatu oppi JSONista.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+      <!--Json-->
+			<div id="avaruus">
+				<h3 style="font-family: 'Rock Salt'">JSON ESIMERKKI</h3>
+				<br />
+			</div>
+		</div>
+
+    <!--Harrastukset/valokuvaus-->
+		<div id="valokuvaus" class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<h2 class="custom-brand">Valo&shy;kuvaus</h2>
+					<br>
+					<p>
+						Valokuvaus on väylä tuoda esiin luovuuttani. Käsittelen kuviani aika
+						maltillisesti, sillä tavoitteenani on taltioida tietyn hetken
+						kauneus juuri sellaisena kuin sen näen. Kuvaan lähinnä luonto- ja
+						eläinaiheita, sillä ne puhuttavat minua eniten. Muutaman kerran olen
+						kuitenkin saanut kunnian kuvata myös perhejuhlia.Lähden harvoin
+						varta vasten kuvaamaan, vaan valotusolosuhteiden ollessa otolliset,
+						nappaan lenkille tai geokätköreissulle mukaani kamerarepun ja
+						pysähdyn nauttimään luonnon kauneudesta kameran takana. Vieressä
+						näet muutamia ottamiani kuvia.
+					</p>
+				</div>
+				<div class="col-sm-8">
+					<div class="sliderWrapper">
+						<div class="slider">
+							<div>
+								<img src="images/talvikuva.jpg" title="Koira pakkassäässä" alt="Koira pakkassäässä"/>
+							</div>
+							<div>
+								<img src="images/pentukoira.jpg"	title="Koiranpentu auringonlaskussa" alt="Koiranpentu takaapäin"/>
+							</div>
+							<div>
+								<img
+									src="images/baari.jpg"	title="Ulkobaari" alt="Ulkona oleva baari"/>
+							</div>
+							<div>
+								<img
+									src="images/artisti.jpg" title="Artisti soittamassa kitaraa" alt="Kitaransoittaja"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    <!--Harrastukset/koirat-->
+		<div class="tumma">
+			<div id="koira" class="container mt-3">
+				<h2 class="custom-brand">Koiraharrastukset</h2>
+				<br />
+				<p>
+					Kilpailuhenkeäni saan tyydytettyä koiraharrastusten parissa, missä voi
+					kisata niin pienissä kyläkokeissa kuin isoissa Suomen
+					mestaruuskisoissakin. Näissä lajeissa menestyvät parhaiten ne, jotka
+					jaksavat tehdä tasaista ja pitkäjänteistä työtä koiransa kanssa.
+					Koiraharrastuksissa ihminen, eli ohjaaja, on aina koiransa kanssa
+					tiimi, josta puhutaan koirakkona. Erityisesti päälajini haku on
+					sellainen laji, jossa treeniporukka, eli joukkue, on korvaamattomassa
+					merkityksessä koirakon menestykseen. Hakukoiran kohdalla hyvin suuri
+					osa koulutuksesta tapahtuu jonkun muun kuin koiran ohjaajan toimesta.
+					Näin ollen treeneissä on aina omien treenien lisäksi vastuussa myös
+					muiden koirien treenaamisesta. Koiraurheilu tuo minulle kaipaamaani
+					yhteisöllisyyttä korona-ajan etäopiskelun ja itsenäisen puurtamisen
+					keskelle. Löydät alta kuvaukset ja pienet videot tarkempiin kuvauksiin
+					harrastamistani lajeista:
+				</p>
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs border-dark">
+					<li class="nav-item">
+						<a class="nav-link active" data-toggle="tab" href="#haku">Haku</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#ipor">Pelastus</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#tottis"
+							>Tottelevaisuus</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#ruutu">Esineruutu</a>
+					</li>
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div id="haku" class="container tab-pane active">
+						<br />
+						<div class="row">
+							<div class="col-sm-7">
+								<h3>Haku</h3>
+								<p>
+									Hakukokeessa koiran tehtävänä on etsiä rajatulta ja ihmisten
+									tallomalta metsäalueelta (rata) kadonneita henkilöitä eli
+									maalimiehiä. Koira voi ilmaista löytämänsä maalimiehen joko
+									haukkumalla tai viemällä kaulassaan roikkuvan rullan
+									ohjaajalle, jonka jälkeen se vie ohjaajan maalimiehen luokse.
+									Radan pituus vaihtelee luokissa riippuen 100m-300m ja sen
+									leveys on aina 100m. Radan keskellä kulkee ns. keskilinja,
+									josta ohjaaja ei saa poistua kuin koiran ilmoittaessaan
+									löydöstä.
+								</p>
+								<p>
+									Haussa koiralta vaaditaan vauhtia (kokeessa on aikaraja),
+									tarkkuutta sekä itsevarmuutta. Koirakon kannalta haku on
+									palkitseva laji, sillä siinä vaaditaan molemminpuolista
+									luottamusta. Haun treenaamisessa treeniporukan yhteishenki on
+									äärimmäisen tärkeää, sillä usein maalimies palkkaa koiran
+									löydöstä tai ilmaisusta ilman ohjaajaa. Hyvässä porukassa
+									hakumetsässä voi kulua tunteja ja se tuntuu vain
+									hujaukselta.
+								</p>
+							</div>
+							<div class="col-sm-5 embed-responsive embed-responsive-16by9">
+								<iframe
+									class="embed-responsive-item"
+									width="560"
+									height="315"
+									src="https://www.youtube.com/embed/ZBFEVrfRQ7k?start=249"
+									title="YouTube video player"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen
+								></iframe>
+							</div>
+						</div>
+					</div>
+					<div id="ipor" class="container tab-pane fade">
+						<br />
+						<div class="row">
+							<div class="col-sm-7" id="haku2">
+								<h3>Pelastuskokeet</h3>
+								<p>
+									Pelastuskokeissa sekä koira, että ohjaaja joutuvat oppimaan
+									uutta. Pelastuskoirakokeet huipentuvat ns.
+									Virta-käyttöönotto-kokeeseen. Hyväksytty virtakoe tarkoittaa
+									sitä, että koirakko voidaan kutsua virka-apupyynnöllä mukaan
+									esimerkiksi kadonneen henkilön etsintöihin tai
+									katastrofialueille raunioetsintään. Pelastuspuolella koiralle
+									opetetaan hakua maastossa ja raunioilla sekä
+									jäljestystä. Koiran tulee ilmoittaa
+									ohjaajalle jäljeltä löytyvistä ihmisen
+									hajuisista esineistä (esim. sienestysveitsi, huivi tms).
+									Parhaimmassa tapauksessa jäljestys päättyy henkilön
+									löytymiseen.
+								</p>
+								<p>
+									Pelastuskokeessa on aina myös hallinta-osio, jossa testataan
+									koiran hallittavuutta ja käsittelyä (voiko koiran
+									esimerkiksi nostaa ylös tai alas korokkeelta). Pelastuskoiran kuuluu olla
+									sitkeä työntekijä eikä se saisi käyttäytyä
+									ennalta-arvaamattomasti yllättävissäkään tilanteissa. Tällaisia tilanteita 
+									voisi olla esimerksi oudosti käyttäytyvän muistisairaan henkilön löytyminen 
+									tai pahimmillaan tehtävän päättyessä vainajan löytymiseen.
+								</p>
+							</div>
+							<div class="col-sm-5 embed-responsive embed-responsive-16by9">
+								<iframe
+									class="embed-responsive-item"
+									width="560"
+									height="315"
+									src="https://www.youtube.com/embed/ZBFEVrfRQ7k?start=59"
+									title="YouTube video player"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen
+								></iframe>
+							</div>
+						</div>
+					</div>
+					<div id="tottis" class="container tab-pane fade">
+						<br />
+						<div class="row">
+							<div class="col-sm-7">
+								<h3>Tottelevaisuus</h3>
+								<p>
+									Hakukokeeseen kuuluu itse haku-osion lisäksi myös
+									tottelevaisuus (sekä esineruutu). Kokeessa kaksi koirakkoa
+									suorittaa yhtä aikaa: toinen koira ns. kaaviota ja toinen ns
+									paikkamakuuta (koira makaa maassa ohjaajan ollessa n.
+									50askeleen päässä selin koiraan).
+								</p>
+								<p>
+									Tottelevaisuuskaavioon kuuluu seuraaminen eri nopeuksilla
+									ja käännöksillä (koira kulkee ohjaajan vasemmalla puolella,
+									pitäen katseensa ohjaajan kasvoissa koko ajan), liikkeestä
+									maahanmeno ja istuutuminen (koira jää seuruusta joko maahan
+									tai istumaan ohjaajan jatkaessa matkaansa eteenpäin
+									pysähtymättä), luoksetulo, puisen noutokapulan noutaminen
+									tasamaalla sekä 1m korkuisen kiinteän esteen ylitse. Lisäksi
+									kokeessa suoritetaan ns. A-esteen ylitys tai nouto A-esteen
+									ylitse luokkatasosta riippuena. Viimeisenä suorituksena
+									kokeessa on aina eteenmeno, jossa testataan koiran
+									kykenevyyttä irrota ohjaajastaan ja hallittavuutta.
+									Eteenmenossa koira lähtee laukkaamaan suoraviivaisesti ja
+									päättäväisesti ohjaajan käden osoittamaan suuntaan ja sen
+									täytyy juosta niin kauan kunnes ohjaaja antaa käskyn mennä
+									maahan.
+								</p>
+							</div>
+							<div class="col-sm-5 embed-responsive embed-responsive-16by9">
+								<iframe
+									class="embed-responsive-item"
+									width="560"
+									height="315"
+									src="https://www.youtube.com/embed/ZBFEVrfRQ7k?start=19"
+									title="YouTube video player"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen
+								></iframe>
+							</div>
+						</div>
+					</div>
+					<div id="ruutu" class="container tab-pane fade">
+						<br />
+						<div class="row">
+							<div class="col-sm-7">
+								<h3>Esineruutu</h3>
+								<p>
+									Hakukokeeseen kuuluu itse haku-osion lisäksi myös esineruutu
+									(sekä tottelevaisuus). Esineruudussa koiran tehtävä on löytää
+									tietty määrä ihmisen hajuisia esineitä tallatulta 50x50m
+									kokoiselta metsäalueelta. Esineet voivat olla mitä tahansa
+									vauvan sukista muovirasioiden kansiin. Ohjaaja ei saa liikkua
+									kokeessa ruudun sisäpuolelle, vaan pelkästään etureunassa.
+									Koiran löytäessä esineen, sen tulee tuoda se vauhdikkaasti
+									ohjaajalle ja käskystä lähteä etsimään seuraavaa.
+								</p>
+								<p>
+									Koiran tulisi löytää mahdollisimman monta esinettä ja sen
+									kuuluisi olla koko ajan ohjattavissa (lähteä ohjaajan
+									osoittamaan suuntaan, irrottaa esineestä ensimmäisellä
+									käskyllä, tulla luokse kutsusta jos eksyy ulos alueelta jne).
+									Esineruudussa on myös 5 min aikaraja, joten koiran tulee
+									liikkua vauhdikkaasti.
+								</p>
+							</div>
+							<div class="col-sm-5 embed-responsive embed-responsive-16by9">
+								<iframe
+									class="embed-responsive-item"
+									width="560"
+									height="315"
+									src="https://www.youtube.com/embed/ZBFEVrfRQ7k?start=31"
+									title="YouTube video player"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen
+								></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    <!--Ota yhteyttä-->
+		<div id="yhteystiedot" class="jumbotron text-center" style="margin-bottom: 0">
+			<div class="row">
+				<div class="col-sm-4">
+					<h2 class="custom-brand">Yhteystiedot</h2>
+					<br>
+					<p>
+						Tanja Korolainen, Jyväskylä<br />
+						<i class="bi bi-phone-fill"></i> 040 1234567<br>
+						<i class="bi bi-envelope-fill"></i> bgr380@myy.haaga-helia.fi
+					</p>
+					<br>
+				</div>
+
+				<!--Yhteydenottolomake-->
+				<div class="col-sm-8">
+					<h3 class="custom-brand">Ota yhteyttä:</h3>
+					<br>
+					<p>Täytä lomakkeelle tietosi, niin otan sinuun yhteyttä myöhemmin!</p>
+					<form>
+						<div class="form-group row">
+							<label class="col-sm-2 col-form-label" for="nimi">Nimi: </label>
+							<div class="col-sm-7">
+								<input
+									type="text"
+									class="form-control"
+									id="nimi"
+									placeholder="Eetu Esimerkki"
+									required/>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label class="col-sm-2 col-form-label" for="yritys"
+								>Yritys:
+							</label>
+							<div class="col-sm-7">
+								<input
+									type="text"
+									class="form-control"
+									id="yritys"
+									placeholder="Yritys Co"
+									required/>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label class="col-sm-2 col-form-label" for="email">Email: </label>
+							<div class="col-sm-7">
+								<input
+									type="email"
+									class="form-control"
+									id="email"
+									placeholder="posti@posti.net"
+									required/>
+							</div>
+						</div>
+						<div class="form-group row custom-margin custom-input">
+							<label for="viesti" class="col-sm-2 col-form-label">
+								Viestisi:
+							</label>
+							<div class="col-sm-7">
+								<textarea
+									class="form-control"
+									id="viesti"
+									name="teksti"
+									rows="8">
+								</textarea>
+							</div>
+						</div>
+						<button
+							type="submit"
+							class="btn btn-outline-dark custom-button"
+							onclick="laheta()">
+							Lähetä
+						</button>
+					</form>
+					<br />
+				</div>
+
+				<!--Tietokannan tulostus (hiukan kilpailuasetelmaa kaikille halukkaille rekrytoijille :D)-->
+				<div id="tulos" style="margin: auto">
+					<h3>Minusta kiinnostuneet yritykset ja headhunterit:</h3>
+				</div>
+			</div>
+		</div>
+
+    <!--skriptejä -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
+
+    <!--omat skriptit tästä alaspäin-->
+		<script>
+
+      //Avaruuskvuan haku
+			$.getJSON(
+				"https://api.nasa.gov/planetary/apod?api_key=xeCTWOp7niF80TueTDmZFJmDUpF2zSYlLVfAamvf",
+				function (data) {
+					var items = [];
+					items.push("<h3>Päivän avaruuskuva:</h3>");
+					items.push("<br><b>" + data.title + "</b>");
+					items.push("<p><b>Selite: </b>" + data.explanation + "</p>");
+					items.push("<br>&copy " + data.copyright);
+					if (data.media_type == "image")
+						items.push("<br><img src='" + data.url + "'>");
+					else {
+						items.push(
+							"<div class='col-sm-8 embed-responsive embed-responsive-16by9' style='margin:auto;'>"
+						);
+						items.push(
+							"<iframe class='embed-responsive-item' title='" + data.title + "' src='" + data.url + "'>"
+						);
+						items.push("</div>");
+					}
+					$("#avaruus").append(items.join(""));
+				}
+			);
+
+      //sliderin skripti
+			$(document).ready(function () {
+				$(".slider").bxSlider({
+					mode: "fade",
+					captions: true,
+					slideWidth: 1000,
+				});
+			});
+
+			// Your web app's Firebase configuration
+			// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+			var firebaseConfig = {
+				apiKey: "AIzaSyBMu_qqxQ--jZfXxg1fc77_dkSFlWE6t0w",
+				authDomain: "lopputyo-d39b5.firebaseapp.com",
+				databaseURL: "https://lopputyo-d39b5-default-rtdb.europe-west1.firebasedatabase.app",
+				projectId: "lopputyo-d39b5",
+				storageBucket: "lopputyo-d39b5.appspot.com",
+				messagingSenderId: "555219526367",
+				appId: "1:555219526367:web:f5050fa14696a35c6aff6a",
+				measurementId: "G-H7X145B9Z2",
+			};
+			//Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+			firebase.analytics();
+
+			var firebaseRef = firebase.database();
+			//tietokantaan kirjoittaminen
+			function laheta() {
+				var firebaseRef = firebase.database().ref();
+				var teksti = document.getElementById("viesti").value;
+				var email = document.getElementById("email").value;
+				var lahettaja = document.getElementById("nimi").value;
+				var yritys = document.getElementById("yritys").value;
+
+				firebaseRef.child("viestit").push().set({
+					nimi: lahettaja,
+					email: email,
+					viesti: teksti,
+					yritys: yritys,
+				});
+			}
+
+      //Tietokannasta luku
+			var rootRef = firebase.database().ref().child("viestit");
+			rootRef.on("child_added", (snap) => {
+				var nimi = snap.child("nimi").val();
+				var co = snap.child("yritys").val();
+				
+				$("#tulos").append("<p>Nimi: " +	nimi + "<br>Yritys:  " +	co + "</p>");
+			});
+		</script>
+	</body>
+</html>

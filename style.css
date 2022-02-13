@@ -1,0 +1,75 @@
+/*Navin muotoiluja*/
+.custom-brand {
+  font-family: 'Rock Salt', cursive;
+}
+.nav-link.active {
+  color: white !important;
+}
+.nav-item a:hover{
+  color:rgb(182, 141, 219) !important;
+}
+.dropdown-menu a:hover {
+  background: rgb(182, 141, 219) !important;
+  color: white !important;
+}
+.dropdown-menu .dropdown-item.active {
+  background-color: rgb(182, 141, 219);
+}
+/*headerin muotoiluja*/
+.custom-jumbotron {
+  background-color: rgb(182, 141, 219);
+}
+/*bodylle muotoilut*/
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(224, 217, 230);
+  position: relative; 
+}
+/*kasvokuvan muotoilut*/
+.faceimg {
+  border: 2px solid black;
+  box-shadow: 5px 2px 5px black;
+}
+/*paddingit kaikille bookmarkeille kuntoon, että näyttää hyvältä*/
+#about, #valokuvaus, #koira, #yhteystiedot {
+  padding-top:60px;
+}
+#about {
+  padding-bottom: 2em;
+}
+/*portfoliolle vielä erikseen*/
+#portfolio {
+  background-color: rgb(182, 141, 219);
+  padding: 60px 2em 2em 2em;
+}
+#avaruus {
+  margin-top: 50px;
+  text-align: center;
+}
+#avaruus img {
+  width: 70%;
+}
+/*sliderin muotoilut*/
+.sliderWrapper {
+  max-width: 635px;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(224, 217, 230);
+ }
+ /*tumma tausta koiraharrastuksille*/
+.tumma {
+  background-color: rgb(182, 141, 219);
+  padding-bottom: 60px;
+}
+/*tabien muotoilut*/
+#koira .nav-link.active {
+  background-color:black !important;
+  color:white !important;
+  border-color: black;
+}
+#koira .nav-link {
+  color: black !important;
+}
+#koira .nav-link:hover {
+  border-color: black;
+}
